@@ -58,8 +58,8 @@
 * `errorMessage` - Описание ошибки на языке, переданном в параметре language в запросе.
 
 2. Научиться писать запрос состояния заказа (getOrderStatusExtended.do) и получать ответ: https://securepayments.sberbank.ru/wiki/doku.php/integration:api:rest:requests:getorderstatusextended_cart
-* `userName`: ndv-api (тестовый, боевой будет чуть позже) 
-* `password`: ndv (тестовый, боевой будет чуть позже)
+* `userName`: XXX (тестовый, боевой будет чуть позже) 
+* `password`: XXX (тестовый, боевой будет чуть позже)
 * `orderId`: значение, получаемое в ответ на запрос register.do
 * `orderNumber`: из запроса register.do (п.1.)
 
