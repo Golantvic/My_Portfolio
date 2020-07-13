@@ -64,18 +64,18 @@
 * `orderNumber`: из запроса register.do (п.1.)
 
 2.1. Получаемый нами ответ:
-* orderNumber: из запроса register.do (п.1.)
-* orderStatus: (0 - заказ успешно зарегистрирован)
-* actionCode: (0 - платёж успешно прошёл)
-* actionCodeDescription (0 - платёж успешно прошёл)
-* errorCode
-* errorMessage
-* amount
-* date
-* ip
-* paymentSystem
-* product
-* paymentWay
+* `orderNumber`: из запроса register.do (п.1.)
+* `orderStatus`: 0 - заказ успешно зарегистрирован
+* `actionCode`: 0 - платёж успешно прошёл
+* `actionCodeDescription`: 0 - платёж успешно прошёл
+* `errorCode`
+* `errorMessage`
+* `amount`
+* `date`
+* `ip`
+* `paymentSystem`
+* `product`
+* `paymentWay`
 
 3. Научится обновлять БП Payment и дополнить его доп. параметрами:    
 3.1. Заполненные параметры БП Payment, а также те параметры, которые участвуют в отправке запроса register.do:    
